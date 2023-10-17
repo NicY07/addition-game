@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Innstillinger">
+        <ListPreference
+            android:key="sprakpref"
+            android:title="@string/språktittel"
+            android:summary="@string/velgspråk"
+            android:dialogTitle="@string/velgspråk"
+            android:defaultValue="Norsk"
+            android:entries="@array/språk"
+            android:entryValues="@array/språkid" />
+        <ListPreference
+            android:key="antallpref"
+            android:title="@string/antRegnestykker"
+            android:summary="@string/antallSub"
+            android:dialogTitle="@string/antallSub"
+            android:defaultValue="5"
+            android:entries="@array/antall"
+            android:entryValues="@array/antallid"/>
+    </PreferenceCategory>
+</PreferenceScreen>

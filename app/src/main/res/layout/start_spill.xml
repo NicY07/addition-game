@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/spillport">
+
+        <TextView
+            android:id="@+id/regnestykke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/svar"
+            android:paddingBottom="20sp"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/svar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/resultat"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="20sp"
+            android:ems="10"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/resultat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/two"
+            android:gravity="center"
+            android:paddingTop="30sp"
+            android:paddingBottom="50sp"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/five"
+            android:layout_toLeftOf="@+id/two"
+            android:backgroundTint="@color/blue"
+            android:text="@string/one"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/five"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/two"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/five"
+            android:layout_toRightOf="@id/two"
+            android:backgroundTint="@color/purple"
+            android:text="@string/three"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/eight"
+            android:layout_toLeftOf="@id/five"
+            android:backgroundTint="@color/blue"
+            android:text="@string/four"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/eight"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/orange"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/five"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/eight"
+            android:layout_toRightOf="@+id/five"
+            android:backgroundTint="@color/purple"
+            android:text="@string/six"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/zero"
+            android:layout_toLeftOf="@id/eight"
+            android:backgroundTint="@color/blue"
+            android:text="@string/seven"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/zero"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/orange"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/eight"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/zero"
+            android:layout_toRightOf="@+id/eight"
+            android:backgroundTint="@color/purple"
+            android:text="@string/nine"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/orange"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/zero"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/tom"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/zero"
+            android:backgroundTint="@color/gray"
+            android:textSize="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_alignParentBottom="true"
+            app:icon="@drawable/baseline_keyboard_backspace_24"
+            app:iconSize="40sp" />
+
+        <Button
+            android:id="@+id/ferdig"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/zero"
+            android:backgroundTint="@color/green"
+            android:textSize="30sp"
+            app:icon="@drawable/baseline_check_24"
+            app:iconSize="40sp" />
+
+</RelativeLayout>

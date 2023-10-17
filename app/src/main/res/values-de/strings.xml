@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mathlympics</string>
+    <string name="start">Spiel beginnen</string>
+    <string name="omspillet">Über das Spiel</string>
+    <string name="pref">Präferenzen</string>
+
+    <string name="avbryte">Unterbrechen</string>
+    <string name="avbrytemsg">Möchten Sie das Spiel abbrechen?</string>
+    <string name="ja">Ja</string>
+    <string name="nei">Nein</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="ferdig">OK</string>
+
+    <string name="ferdigmelding">Glückwunsch! Du bist fertig!</string>
+
+    <string name="riktig">Richtig! Gute Arbeit!</string>
+    <string name="feilforlite">Fehler! Es ist zu klein. Versuchen Sie es erneut</string>
+    <string name="feilforhøy">Fehler! Der Wert ist zu hoch. Versuchen Sie es erneut</string>
+
+    <string name="veiledning">
+        1. Die Berechnung wird hier angezeigt
+        \n2. Ihre Antwort erscheint hier
+        \n3. Verwenden Sie die Schaltflächen, um die Antwort einzugeben
+        \n4. Das Ergebnis wird angezeigt
+    </string>
+
+    <string name="språktittel">Sprache</string>
+    <string name="velgspråk">Wähle deine Sprache</string>
+
+    <string name="antRegnestykker">Anzahl der Berechnungen</string>
+        <string name="antallSub">Anzahl der Berechnungen pro Spiel</string>
+</resources>
